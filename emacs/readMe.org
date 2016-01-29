@@ -4,7 +4,8 @@
    All base on emacs 24.4 above, 24.5 is better
 * Dependencies
 ** Cask 
-   Download from github
+   Ref [[http://cask.readthedocs.org/en/latest/guide/installation.html#prerequisites][Cask doc]]
+   [[https://github.com/cask/cask][Github]] 
 ** Aspell
    Install Aspell and dictionary, e.g yum install aspell.en
 * Install 
