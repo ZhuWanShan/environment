@@ -1,0 +1,12 @@
+* Emacs Private environment
+
+** Version
+   All base on emacs 24.4 above, 24.5 is better
+* Dependencies
+** Cask 
+   Download from github
+** Aspell
+   Install Aspell and dictionary, e.g yum install aspell.en
+* Install 
+  init.sh under emacs
+
