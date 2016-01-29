@@ -67,7 +67,7 @@
 (global-set-key [f2] 'comment-region)
 (global-set-key [f3] 'uncomment-region)
 (global-set-key [f5] 'indent-region)
-(global-set-key "\C-l" 'end-of-line)
+;;(global-set-key "\C-l" 'end-of-line)
  
 (global-set-key "\C-xt" 'select-frame-by-name)
  
@@ -137,7 +137,7 @@
 
 ;; neo tree
 (require 'neotree)
-(global-set-key [f8] 'neotree-toggle)
+(global-set-key (kbd "C-c n") 'neotree-toggle)
 
 ;;ansi delechar
 ;;(global-set-key (kbd "C-x d") 'delete-backward-char)
