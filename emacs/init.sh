@@ -1,8 +1,9 @@
 #!/bin/sh
 
+BASE="$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
 
 synchronizeEmacs(){
-    cp -R .emacs.d ~/
+    cd $BASE && cp -R .emacs.d ~/
     echo "Init cask dependencies"
     cd ~/.emacs.d && cask install
 }

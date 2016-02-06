@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 mkdir -p ~/.tmux && cd ~/.tmux
 
@@ -12,4 +12,6 @@ else
 fi
 
 cp $BASE/.tmux.conf ~/
+
+exit 0
 
