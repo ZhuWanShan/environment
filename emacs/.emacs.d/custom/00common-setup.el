@@ -148,3 +148,5 @@
 
 ;; (require 'uniquify)
 ;; (setq uniquify-buffer-name-style  'reverse)
+(projectile-global-mode)
+(global-set-key (kbd "C-c p p") 'projectile-switch-project)
