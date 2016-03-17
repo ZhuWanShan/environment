@@ -36,6 +36,8 @@
 (setq-default truncate-lines nil)
 ;; Do not use tabs for indentation
 (setq-default indent-tabs-mode nil)
+(global-set-key "\t" (lambda () (interactive) (insert-char 32 2))) ;; [tab] inserts two spaces
+
 (menu-bar-mode t)
 ;;(enable-theme 'solarized-dark)
  
@@ -58,7 +60,7 @@
  
 (display-time)
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
- 
+
 ;;(scroll-bar-mode nil)
  
 ;; Enable copy and pasting from clipboard
