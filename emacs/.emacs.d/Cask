@@ -92,3 +92,4 @@
 (depends-on "web-mode")
 (depends-on "wrap-region")
 (depends-on "xterm-color")
+(depends-on "zenburn-theme")
