@@ -3,7 +3,14 @@
 (add-to-list 'default-frame-alist '(top . 0))
 (add-to-list 'default-frame-alist '(height . 45))
 (add-to-list 'default-frame-alist '(width . 175))
- 
+
+;;hightlight current line
+;;(global-hl-line-mode 1) 
+
+;;default show line number
+(setq linum-format "%4d \u2502 ")
+(global-linum-mode t)
+
 ;; To get rid of Weird color escape sequences in Emacs.
 ;; Instruct Emacs to use emacs term-info not system term info
 ;; http://stackoverflow.com/questions/8918910/weird-character-zsh-in-emacs-terminal
@@ -28,8 +35,6 @@
 (global-set-key (kbd "C-c k")    'windmove-up)
 (global-set-key (kbd "C-c j")  'windmove-down)
 
-
-
 (set-frame-font "-apple-Fira_Mono-medium-normal-normal-*-*-*-*-*-m-0-iso10646-1")
  
 ;; Display continuous lines
@@ -38,8 +43,10 @@
 (setq-default indent-tabs-mode nil)
 (global-set-key "\t" (lambda () (interactive) (insert-char 32 2))) ;; [tab] inserts two spaces
 
-(menu-bar-mode t)
-;;(enable-theme 'solarized-dark)
+(menu-bar-mode -1)
+
+;;turn on bracket match
+(show-paren-mode 1) 
  
 ;; trucate even even when screen is split into multiple windows
 (setq-default truncate-partial-width-windows nil)

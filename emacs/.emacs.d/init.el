@@ -3,7 +3,8 @@
 (require 'pallet)
 (pallet-mode t)
 (add-to-list 'load-path "~/.emacs.d/custom")
-(load-theme 'zenburn t)
+
+;; load customized
 (load "00common-setup.el")
 ;;(load "01ruby.el")
 ;;(load "03scala.el")
