@@ -9,5 +9,6 @@
 ;;(load "03scala.el")
 ;;(load "02ansi-term.el")
 (load "04python.el")
+(load "05orgmode.el")
 ;;(put 'upcase-region 'disabled nil)
 
