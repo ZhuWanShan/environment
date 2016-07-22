@@ -155,6 +155,8 @@
 ;; (require 'powerline)
 ;; (powerline-default-theme)
 
+(load-theme 'idea-darkula t)
+
 ;; (require 'uniquify)
 ;; (setq uniquify-buffer-name-style  'reverse)
 (projectile-global-mode)
