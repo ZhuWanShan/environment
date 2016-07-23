@@ -155,7 +155,8 @@
 ;; (require 'powerline)
 ;; (powerline-default-theme)
 
-(load-theme 'idea-darkula t)
+;;(load-theme 'idea-darkula t)
+(load-theme 'jbeans t)
 
 ;; (require 'uniquify)
 ;; (setq uniquify-buffer-name-style  'reverse)

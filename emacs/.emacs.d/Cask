@@ -92,4 +92,5 @@
 (depends-on "web-mode")
 (depends-on "wrap-region")
 (depends-on "xterm-color")
-(depends-on "idea-darkula-theme")
+;;(depends-on "idea-darkula-theme")
+(depends-on "jbeans-theme")
